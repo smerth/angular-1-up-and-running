@@ -1,0 +1,24 @@
+---
+name: four
+url: /4
+controller: Controller4
+---
+
+<div class="grid-container">
+  <h1>4. Access data from a local json file.</h1>
+  <p>The list data is being brought in from a json data file using the angular $http service</p>
+  <p>Filters are applied to limit the list to five items and transform the name to uppercase.</p>
+
+  <div class="main lookup-demo" ng-controller="Controller4">
+    <ul class="artistlist">
+      <li class="artist cf" ng-repeat="item in data4 | limitTo: 5">
+        <img ng-src="assets/img/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
+        <div class="info">
+          <h2>{{item.name | uppercase}}</h2>
+          <h3>{{item.reknown}}</h3>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+</div>

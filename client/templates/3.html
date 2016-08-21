@@ -1,0 +1,26 @@
+---
+name: three
+url: /3
+controller: Controller3
+animationIn: slideInRight
+---
+
+<div class="grid-container">
+  <h1>3. Access data object in controller</h1>
+  <p>The list data is contained in a data object in the controller for this route.</p>
+
+  <div class="row lookup-demo">
+    <div class="main" ng-controller="Controller3">
+      <ul class="artistlist">
+        <li class="artist cf" ng-repeat="item in artist">
+          <img ng-src="assets/img/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
+          <div class="info">
+            <h2>{{item.name}}</h2>
+            <h3>{{item.reknown}}</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>

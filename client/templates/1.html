@@ -1,0 +1,15 @@
+---
+name: one
+url: /1
+---
+
+<div class="grid-container">
+  <h1>1. Bind input data to a template expression</h1>
+  <p>Enter your name in the input field and watch it populate the Welcome template on the fly!</p>
+
+  <input placeholder="Enter your name" type="text" ng-model="name" autofocus>
+  <h2>Welcome {{name}}</h2>
+
+  <p>The input element contains an angular directive (ng-model="name") which makes the input element value available to the template as a variable or an expression.</p>
+
+</div>

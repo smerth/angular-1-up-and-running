@@ -15,9 +15,9 @@
 
     .controller('Controller2', function Controller2($scope) {
       $scope.author = {
-        'name': 'Stephen',
+        'name': 'Smerth',
         'title': 'Lumberjack',
-        'company': 'Dawson Timber Co.'
+        'company': 'Dawson Creek Timber Co.'
       }
     })
 

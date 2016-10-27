@@ -6,7 +6,11 @@ This build uses [Angular 1](https://angularjs.org).
 
 ## Usage
 
-clone the repo
+### Clone the repo
+
+```bash
+git clone https://github.com/smerth/up-and-running-with-angularjs-1.git
+```
 
 ### Install assets
 

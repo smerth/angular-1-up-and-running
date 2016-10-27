@@ -5871,6 +5871,9 @@ blockquote p {
 .float-none {
   float: none; }
 
+.primary {
+  z-index: 1000; }
+
 .lookup-demo {
   /* @override
   http://planetoftheweb.com/_/css/styles.css */

@@ -1,10 +1,10 @@
 # Angular 1 demo
 
-The site is built with <a href="http://foundation.zurb.com/apps/docs">Foundation for Apps</a>.  The Angular code is modified from the Lynda.com course "<a href="https://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html">Up and running with angularjs 1.</a>"
+This site is built with <a href="http://foundation.zurb.com/apps/docs">Foundation for Apps</a>.  The [Angular](https://angularjs.org) code is modified from the Lynda.com course "<a href="https://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html">Up and running with angularjs 1.</a>"
 
-This build uses [Angular 1](https://angularjs.org).
+Each page illustrates a part of the course.
 
-## Usage
+## Installation
 
 ### Clone the repo
 

@@ -1,8 +1,10 @@
 # Angular 1 demo
 
-This site is built with <a href="http://foundation.zurb.com/apps/docs">Foundation for Apps</a>.  The [Angular](https://angularjs.org) code is modified from the Lynda.com course "<a href="https://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html">Up and running with angularjs 1.</a>"
+This site is built with <a href="http://foundation.zurb.com/apps/docs">Foundation for Apps</a>. The [Angular](https://angularjs.org) code is modified from the Lynda.com course "<a href="https://www.lynda.com/AngularJS-tutorials/Up-Running-AngularJS/154414-2.html">Up and running with angularjs 1.</a>"
 
 Each page illustrates a part of the course.
+
+![App Screenshot](https://raw.githubusercontent.com/smerth/angular-1-up-and-running/master/screenshot.png)
 
 ## Installation
 
@@ -24,8 +26,3 @@ bower install
 ```bash
 npm start
 ```
-
-
-
-
-
